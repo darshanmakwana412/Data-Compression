@@ -85,7 +85,7 @@ def main():
             outputs=[result, status]
         )
 
-    app.launch()
+    app.launch(share=True)
 
 if __name__ == "__main__":
     main()
